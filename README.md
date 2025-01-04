@@ -13,7 +13,7 @@ User Authentication: Includes a login feature for personalized experience.
 
 Frontend: HTML, CSS, JavaScript
 
-Backend/API: Dictionary API
+API: Dictionary API (https://api.dictionaryapi.dev/api/v2/entries/en/<word>)
 
 Version Control: Git & GitHub
 
