@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Dictionary</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container active" id="login-form">
+            <h2>Welcome Back</h2>
+            <p>Please login to your account</p>
+            <input type="email" id="login-email" placeholder="Email" required>
+            <input type="password" id="login-password" placeholder="Password" required>
+            <button id="login-btn">Login</button>
+            <div class="toggle-text">
+                Don’t have an account? <button id="toggle-to-signup">Sign Up</button>
+            </div>
+        </div>
+
+        <div class="form-container" id="signup-form">
+            <h2>Create Account</h2>
+            <p>Join us to explore new words!</p>
+            <input type="text" id="signup-name" placeholder="Full Name" required>
+            <input type="email" id="signup-email" placeholder="Email" required>
+            <input type="password" id="signup-password" placeholder="Password" required>
+            <button id="signup-btn">Sign Up</button>
+            <div class="toggle-text">
+                Already have an account? <button id="toggle-to-login">Login</button>
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

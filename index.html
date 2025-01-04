@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Dictionary</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+    if (!localStorage.getItem("loggedIn")) {
+        window.location.href = "login.html"; // Redirect to login page
+    }
+</script>
+
+<body>
+    <div class="container">
+        <!-- Left Side: Search Section -->
+        <div class="left-section">
+            <h1>English Dictionary</h1>
+            <div class="search-box">
+                <input type="text" class="inputValue" placeholder="Enter a word...">
+                <button class="search-btn" onclick="handleClick()">Search</button>
+            </div>
+            <i class="fa fa-spinner fa-spin" style="display: none;"></i>
+        </div>
+
+        <!-- Right Side: Result Section -->
+        <div class="right-section">
+            <div class="section2" style="display: none;">
+                <h2 class="word-title">Word: <span class="value"></span></h2>
+                <div class="part-of-speech-container">
+                    <h3>Part of Speech</h3>
+                    <p class="partOfSpeech"></p>
+                </div>
+                <div class="definition-container">
+                    <h3>Definition</h3>
+                    <p class="definition"></p>
+                </div>
+                <div class="example-container">
+                    <h3>Example</h3>
+                    <p class="example"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button onclick="logout()" class="logout-btn">Logout</button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
