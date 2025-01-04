@@ -17,4 +17,4 @@ API: Dictionary API (https://api.dictionaryapi.dev/api/v2/entries/en/<word>)
 
 Version Control: Git & GitHub
 
-Happy coding! ✨
+**Happy coding!** ✨
