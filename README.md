@@ -8,7 +8,6 @@ Word Search: Quickly find definitions for any English word.
 User Authentication: Includes a login feature for personalized experience.
 
 
-
 🛠️ **Technologies Used**
 
 Frontend: HTML, CSS, JavaScript
